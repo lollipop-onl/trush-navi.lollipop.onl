@@ -12,10 +12,12 @@
   "devDependencies": {
     "axios": "^0.19.2",
     "lodash": "^4.17.15",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
   },
   "dependencies": {
     "react": "^16.0.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "reset-css": "^5.0.1"
   }
 }
