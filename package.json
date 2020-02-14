@@ -1,0 +1,21 @@
+{
+  "name": "trush-navi.lollipop.onl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lollipop-onl/trush-navi.lollipop.onl.git",
+  "author": "lollipop-onl <lollipop@simoochee.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -o docs"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.12.0"
+  }
+}
