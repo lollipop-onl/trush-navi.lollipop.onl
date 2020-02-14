@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -o docs"
+    "build": "parcel build src/index.html -d docs --public-url . --experimental-scope-hoisting"
   },
   "devDependencies": {
     "axios": "^0.19.2",
