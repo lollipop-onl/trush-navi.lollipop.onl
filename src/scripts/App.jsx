@@ -10,7 +10,10 @@ const App = () => {
     }
 
     return input.split(' ').every((chunk) => {
-      return name.toLocaleString().includes(chunk) || kana.toLocaleString().includes(chunk);
+      return (
+        name.toLowerCase().includes(chunk.toLowerCase()) ||
+        kana.toLowerCase().includes(chunk.toLowerCase())
+      );
     });
   });
 
