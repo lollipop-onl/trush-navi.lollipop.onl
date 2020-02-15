@@ -10,7 +10,7 @@ const App = () => {
     }
 
     return input.split(' ').every((chunk) => {
-      return name.includes(chunk) || kana.includes(chunk);
+      return name.toLocaleString().includes(chunk) || kana.toLocaleString().includes(chunk);
     });
   });
 
