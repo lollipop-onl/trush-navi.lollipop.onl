@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { debounce } from 'throttle-debounce';
 import data from '../assets/data.json';
 
 const App = () => {
@@ -17,9 +18,9 @@ const App = () => {
     });
   });
 
-  const onInput = (e) => {
+  const onInput = debounce(500, (e) => {
     setInput(e.target.value);
-  };
+  });
 
   return (
     <div className="page-container">
